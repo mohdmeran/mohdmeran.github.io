@@ -1,0 +1,65 @@
+<html>
+	<head>
+
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="makeup.css">
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Rock Paper Scissor!</h1>
+		</header>
+
+		<div id="container">
+
+			<div id="roundboard">
+				<div id="playerSide">
+					<div id="playerPointContainer" class="pointContainer">
+						<div class="point"></div>
+						<div class="point"></div>
+						<div class="point"></div>
+						<div class="point"></div>
+						<div class="point"></div>						
+					</div>
+					<div class="image-container"">
+						<img id="playerImg" src="" alt=""/>
+					</div>
+					<p>Player Choice</p>
+					<p id="playerChoice"></p>
+				</div>
+
+
+				<div id="resultSide">
+					<p id="result">Select your first choice to start</p>
+				</div>
+
+
+				<div id="compSide">
+					<div id="compPointContainer" class="pointContainer">
+						<div class="point"></div>
+						<div class="point"></div>
+						<div class="point"></div>
+						<div class="point"></div>
+						<div class="point"></div>						
+					</div>
+					<div class="image-container">
+						<img id="compImg" src="" alt=""/>
+					</div>
+					<p>Computer Choice</p>
+					<p id="compChoice"></p>
+				</div>
+			</div>
+
+			<div id="btnChoice">
+				<button id="rock" class="playBtn">Rock</button>
+				<button id="paper" class="playBtn">Paper</button>
+				<button id="scissor" class="playBtn">Scissor</button>
+			</div>
+		</div>
+
+	</body>
+</html>
+
+<script src="gameHandler.js"></script>
